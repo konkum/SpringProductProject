@@ -1,0 +1,12 @@
+Nhóm 25
+
+Thành viên: Vũ Anh Quân - làm hết
+	    Lưu Quang Tân - không có mặt
+
+Vào ra dữ liệu thì vào ra theo file txt 
+
+Đầu tiên là nó vào trang index.html sau khi ấn vào href thí nó sẽ hiện trang showProduct và người dùng có thể delete, add, edit các thành phần trong bảng
+
+edit và delete thì em dùng request mapping để lấy thành phần của cái bảng ở showProduct
+
+	

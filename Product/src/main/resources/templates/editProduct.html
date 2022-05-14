@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+    	
+            <form action="editProductPost" method="post">
+            <div class="Edit" id="editProduct">
+                <input type="hidden" name="action" value="updateEdit">
+                <h1>Product</h1><br>
+                <label>Product Code:</label>
+                <input type="text" name="code" th:value="${editProduct.code}" required><br>
+                <label>Product Description:</label>
+                <input type="text" name="description" th:value="${editProduct.description}" required><br>
+                <label>Product price:</label>
+                <input type="text" name="price" th:value="${editProduct.price}" required><br>
+                <label>&nbsp;</label>
+                <input type="submit" value="Update Product" id="submit">
+                </div>
+            </form>
+    	
+        <form action="returnProductPost" method="post">
+            <input type="hidden" name="action" value="product">
+            <input type="submit" value="View Product">
+        </form>
+    </body>
+</html>
